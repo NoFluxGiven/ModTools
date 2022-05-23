@@ -1,0 +1,58 @@
+//=====================================================================================================
+// {Tooltips.HeroName!u} - {Tooltips.DOTA_Tooltip_Ability_{__KEYNAME__}}
+//=====================================================================================================
+"{__KEYNAME__}"
+{{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"{BaseClass}"
+	"ScriptFile"					"{ScriptFile}"
+	"AbilityType"					"{AbilityType}"
+	"AbilityBehavior"				"{AbilityBehavior}"
+	"AbilityUnitTargetTeam"			"{AbilityUnitTargetTeam}"
+	"AbilityUnitTargetType"			"{AbilityUnitTargetType}"
+	"SpellImmunityType"				"{SpellImmunityType}"
+	"AbilityUnitDamageType"			"{AbilityUnitDamageType}"
+	"AbilityCastAnimation"			"{AbilityCastAnimation}"
+	"AbilityTextureName"			"{AbilityTextureName}"
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"{AbilityCastRange}"
+	"AbilityCastPoint"				"{AbilityCastPoint}"
+	
+	"AbilityDamage" 				"{AbilityDamage}"
+	
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"{AbilityCooldown}"
+
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"{AbilityManaCost}"
+	
+	// Stats
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityModifierSupportValue"	"{AbilityModifierSupportValue}"	// All about the damage
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{{
+        {AbilitySpecial!map}
+    }}
+	
+	
+	"precache"
+		{{
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_sniper.vsndevts"
+			"particle"					"particles/units/heroes/hero_sniper/sniper_shrapnel.vpcf"
+			"particle"					"particles/units/heroes/hero_sniper/sniper_shrapnel_launch.vpcf"
+			"particle"					"particles/econ/items/sniper/sniper_charlie/sniper_shrapnel_charlie.vpcf"
+			"particle"					"particles/units/heroes/hero_centaur/centaur_warstomp.vpcf"
+		}}
+	
+	"Modifiers"
+		{{
+		}}
+}}
